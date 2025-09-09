@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        table {
+            border: 4px solid gold;
+        }
+
+        th {
+            border: 3px solid blue;
+        }
+
+        td {
+            border: 2px solid black;
+        }
+    </Style>
+</head>
+
+<body>
+    <h1> Main Heading (H1)</h1>
+    <h2>Sub-heading (h2)</h2>
+
+    <p>This is a paragraph <br> here is a line break inside the paragraph </p>
+    <a href="www.google.com"> Go to Google </a> <br> <br>
+    <img src="image.jpg" alt="This is a parrot" width="200" height="120">
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li> Apples</li>
+        <li>Mangoes</li>
+        <li>Bananas</li>
+    </ul>
+
+    <h3>Ordered Lists</h3>
+    <ol>
+        <li>Wake Up</li>
+        <li>Brush Teeth</li>
+        <li>Have Breakfast</li>
+    </ol>
+
+    <H3>Nested List</H3>
+
+    <ul>
+        <li>Fruits</li>
+        <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+        </ul>
+        <li>Vegetables</li>
+        <ul>
+            <li>carrot</li>
+            <li>Spinach</li>
+        </ul>
+    </ul>
+
+    <p>This is a block element</p>
+    <p>(it takes full width)</p>
+    <span>This is inline and</span>
+    <span>continous inline</span>
+
+    <hr>
+
+    Water formmula: H<sub>2</sub>O <br>
+
+    Einstein formula: E = mc<sup>2</sup> <br> <br>
+
+    <small> &copy; 2025 My Practice Page </small>
+    <br>
+    <p>5 &lt; 10 (less than sign usingg entyity)</p>
+    <p>Example of Non-Breaking Space</p>
+
+    <table>
+        <tr>
+            <th colspan="2"><b>Student Info</b></th>
+        </tr>
+        <tr>
+            <td><b>Name</b></td>
+            <td><b>Age</b></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Anubhav</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td>Doraemon</td>
+            <td>20</td>
+        </tr>
+
+    </table>
+
+    <Form action="/Submit" method="post">
+
+        <H1>Form Example</H1>
+
+        <label for="username">Name:</label>
+        <input type="text" id="username" placeholder="Enter your name">
+        <br> <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password"> <br><br>
+
+        <label for="Gender">Gender: </label>
+        <input type="radio" name="Gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="female">
+        <label for="female">female</label> <br><br>
+
+        <label>Subscribe</label>
+        <input type="checkbox" name="Subscribe" id="yes">
+        <label for="yes">yes</label>
+        <input type="checkbox" name="Subscribe" id="no">
+        <label for="no">no</label> <br><br>
+
+        <label for="Course">Select Your Course:</label>
+        <select name="IT" id="Course">
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+        </select> <br><br>
+
+        <label for="Message">Message:</label><br>
+        <textarea name="Message" id="Message"  placeholder="Write your message ..." rows="6" cols="30" ></textarea>
+        <br>
+
+        <label for="AGE">Select your age</label>
+        <input type="range" name="AGE" id="AGE" min="1" max="100"><br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </Form>
+
+    <h2>VIDEO EXAMPLE</h2>
+    <video width="320" controls autoplay muted loop> <!-- controls autoplay muted loop used to mute and play the video on loop -->
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+
+
+
+
+</body>
+
+</html>
