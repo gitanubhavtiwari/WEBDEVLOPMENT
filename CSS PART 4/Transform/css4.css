@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9ff;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.subtitle { margin-top: 4px; color: #444; font-size: 14px; }
+
+.card {
+  background: rgb(154, 191, 236);
+  border-radius: 8px;
+  padding: 14px;
+  margin: 14px auto;
+  max-width: 640px; 
+  box-shadow: 0 16px 1px rgba(20,30,80,0.06);
+}
+
+.note { color: #721ea0; font-size: 13px; margin: 6px 0 10px; }
+
+.demo-image {
+ width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+   
+.demo-image:hover{
+    opacity: 0.70;
+}
+
+.btn-transition{
+  display: inline-block;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 50px;
+  background: #5c7cfa;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 300ms ease, width 1s ease;
+  width: 120px;
+ 
+}
+
+.btn-transition:hover {
+    width: 180px;
+    background-color: aqua;
+
+}
+
+.demo-box {
+  width: 180px;
+  height: 80px;
+  margin: 10px auto;
+  display: block;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 6px;
+  background: linear-gradient(180deg,#ffffff,#eef4ff);
+  border: 1px solid rgba(80,100,200,0.06);
+  transition: transform 300ms ease; /* smooth transform */
+}
+
+.rotate:hover { transform: rotate(150deg);
+  background-color: #721ea0;
+                color: #721ea0; }
+.scale:hover {
+  transform: scale(1.4);
+  background: purple;
+  color:wheat;
+}
+
+.translate:hover {
+  transform: translateX(32px);
+}
+
+.skew:hover {
+  transform: skew(34deg,5deg);
+}
+
+.shadow {
+  box-shadow: 0 6px 10px rgba(50,70,120,0.08);
+  transition: box-shadow 280ms ease, transform 280ms ease;
+}
+.shadow:hover {
+  box-shadow: 0 18px 36px rgba(52, 210, 31, 0.9);
+  transform: translateY(-7px);
+}
+
+.bg-card {
+  height: 180px;
+  border-radius: 8px;
+  background-image: url('nature.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-card:hover{
+  opacity: 0.90 ;
+  background-image: url(doraemon.jpg);
+  background-size: contain;
+}
